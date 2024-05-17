@@ -1,0 +1,45 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header__nav-logo {
+  width: 186px;
+  height: 58px;
+  margin: 10px;
+}
+
+.header__navicon {
+  display: block;
+  width: 19px;
+  height: 2px;
+  position: relative;
+  background: white;
+  cursor: pointer;
+  transition: background 0.2s ease-out;
+  margin: 35px 6px;
+}
+
+.header__navicon::before,
+.header__navicon::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: white;
+  transition: all 0.2s ease-out;
+}
+
+.header__navicon::before {
+  margin-left: 7.5px;
+  top: 5px;
+  width: 11.5px;
+  height: 100%;
+}
+
+.header__navicon::after {
+  margin-left: -7.5px;
+  bottom: 5px;
+  width: 26.5px;
+  height: 100%;
+}

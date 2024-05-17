@@ -1,0 +1,6 @@
+body {
+  background-image: url(../images/index.header.partial/header__background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 320px;
+}
